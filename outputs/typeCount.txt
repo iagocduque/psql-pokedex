@@ -1,0 +1,21 @@
+  type  | n  
+--------+----
+ Water  | 34
+ Poison | 33
+ Normal | 22
+ Flying | 19
+ Grass  | 16
+ Psychc | 16
+ Ground | 14
+ Bug    | 12
+ Fire   | 12
+ Rock   | 11
+ Electr |  9
+ Fight  |  8
+ Fairy  |  6
+ Ice    |  6
+ Ghost  |  3
+ Dragon |  3
+ Steel  |  2
+ Dark   |  1
+(18 rows)

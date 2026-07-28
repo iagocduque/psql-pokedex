@@ -1,0 +1,16 @@
+    pkmn    
+------------
+ Farfetchd
+ Kangaskhan
+ Pinsir
+ Tauros
+ Lapras
+ Ditto
+ Aerodactyl
+ Snorlax
+ Articuno
+ Zapdos
+ Moltres
+ Mewtwo
+ Mew
+(13 rows)

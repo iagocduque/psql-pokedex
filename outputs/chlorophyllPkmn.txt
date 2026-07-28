@@ -1,0 +1,13 @@
+    pkmn    |    abil     
+------------+-------------
+ Oddish     | Chlorophyll
+ Gloom      | Chlorophyll
+ Vileplume  | Chlorophyll
+ Bellsprout | Chlorophyll
+ Weepinbell | Chlorophyll
+ Victreebel | Chlorophyll
+ Exeggcute  | Chlorophyll
+ Exeggutor  | Chlorophyll
+ Tangela    | Chlorophyll
+ Bellossom  | Chlorophyll
+(10 rows)

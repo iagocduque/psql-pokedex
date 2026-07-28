@@ -1,0 +1,11 @@
+   pkmn    
+-----------
+ Bellossom
+ Politoed
+ Slowking
+ Espeon
+ Umbreon
+ Leafeon
+ Glaceon
+ Sylveon
+(8 rows)

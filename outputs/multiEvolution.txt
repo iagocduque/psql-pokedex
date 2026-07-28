@@ -1,0 +1,7 @@
+   pkmn    
+-----------
+ Gloom
+ Poliwhirl
+ Slowpoke
+ Eevee
+(4 rows)

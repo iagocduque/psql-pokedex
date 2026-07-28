@@ -1,0 +1,15 @@
+    pkmn    
+------------
+ Venusaur
+ Charizard
+ Blastoise
+ Butterfree
+ Pikachu
+ Meowth
+ Machamp
+ Gengar
+ Kingler
+ Lapras
+ Eevee
+ Snorlax
+(12 rows)
