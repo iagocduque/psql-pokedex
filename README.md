@@ -97,7 +97,7 @@ with open("psqlFetch.txt","r",encoding="utf-8") as file:
 csv=txt[1:].replace("|",",").replace("  ","").replace(" ,",",").replace(", ",",").replace("\n ","\n")
 csv=csv.splitlines() # ← Converting each line to list's elements
 csv.pop(1) # ← Removes the dividing - and + from the text
-csv.pop(-1) # ← Removes the "(\d rows)" from the text
+csv.pop(-1) # ← Removes the "(\d+ rows)" from the text
 for line in csv:
  print(line) # ← Printing each line
 ```
