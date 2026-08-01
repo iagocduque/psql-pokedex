@@ -1,0 +1,163 @@
+ pkdx |    pkmn    |  type1   |  type2   |   evfrom   |    evto    | gen |     abil      | mega | gmax 
+------+------------+----------+----------+------------+------------+-----+---------------+------+------
+    1 | Bulbasaur  | Grass    | Poison   |            | Ivysaur    |   1 | Overgrow      |    0 | f
+    2 | Ivysaur    | Grass    | Poison   | Bulbasaur  | Venusaur   |   1 | Overgrow      |    0 | f
+    3 | Venusaur   | Grass    | Poison   | Ivysaur    |            |   1 | Overgrow      |    1 | t
+    4 | Charmander | Fire     |          |            | Charmeleon |   1 | Blaze         |    0 | f
+    5 | Charmeleon | Fire     |          | Charmander | Charizard  |   1 | Blaze         |    0 | f
+    6 | Charizard  | Fire     | Flying   | Charmeleon |            |   1 | Blaze         |    2 | t
+    7 | Squirtle   | Water    |          |            | Wartortle  |   1 | Torrent       |    0 | f
+    8 | Wartortle  | Water    |          | Squirtle   | Blastoise  |   1 | Torrent       |    0 | f
+    9 | Blastoise  | Water    |          | Wartortle  |            |   1 | Torrent       |    1 | t
+   10 | Caterpie   | Bug      |          |            | Metapod    |   1 | Shield Dust   |    0 | f
+   11 | Metapod    | Bug      |          | Caterpie   | Butterfree |   1 | Shield Dust   |    0 | f
+   12 | Butterfree | Bug      | Flying   | Metapod    |            |   1 | Compound Eyes |    0 | t
+   13 | Weedle     | Bug      | Poison   |            | Kakuna     |   1 | Shield Dust   |    0 | f
+   14 | Kakuna     | Bug      | Poison   | Weedle     | Beedrill   |   1 | Shed Skin     |    0 | f
+   15 | Beedrill   | Bug      | Poison   | Kakuna     |            |   1 | Swarm         |    1 | f
+   16 | Pidgey     | Normal   | Flying   |            | Pidgeotto  |   1 | Keen Eye      |    0 | f
+   17 | Pidgeotto  | Normal   | Flying   | Pidgey     | Pidgeot    |   1 | Keen Eye      |    0 | f
+   18 | Pidgeot    | Normal   | Flying   | Pidgeotto  |            |   1 | Keen Eye      |    1 | f
+   19 | Rattata    | Normal   |          |            | Raticate   |   1 | Run Away      |    0 | f
+   20 | Raticate   | Normal   |          | Rattata    |            |   1 | Run Away      |    0 | f
+   21 | Spearow    | Normal   | Flying   |            | Fearow     |   1 | Keen Eye      |    0 | f
+   22 | Fearow     | Normal   | Flying   | Spearow    |            |   1 | Keen Eye      |    0 | f
+   23 | Ekans      | Poison   |          |            | Arbok      |   1 | Intimidate    |    0 | f
+   24 | Arbok      | Poison   |          | Ekans      |            |   1 | Intimidate    |    0 | f
+   25 | Pikachu    | Electric |          | Pichu      | Raichu     |   1 | Static        |    0 | t
+   26 | Raichu     | Electric |          | Pikachu    |            |   1 | Static        |    2 | f
+   27 | Sandshrew  | Ground   |          |            | Sandslash  |   1 | Sand Veil     |    0 | f
+   28 | Sandslash  | Ground   |          | Sandshrew  |            |   1 | Sand Veil     |    0 | f
+   29 | Nidoran♀   | Poison   |          |            | Nidorina   |   1 | Poison Point  |    0 | f
+   30 | Nidorina   | Poison   |          | Nidoran♀   | Nidoqueen  |   1 | Poison Point  |    0 | f
+   31 | Nidoqueen  | Poison   | Ground   | Nidorina   |            |   1 | Poison Point  |    0 | f
+   32 | Nidoran♂   | Poison   |          |            | Nidorino   |   1 | Poison Point  |    0 | f
+   33 | Nidorino   | Poison   |          | Nidoran♂   | Nidoking   |   1 | Poison Point  |    0 | f
+   34 | Nidoking   | Poison   | Ground   | Nidorino   |            |   1 | Poison Point  |    0 | f
+   35 | Clefairy   | Fairy    |          | Cleffa     | Clefable   |   1 | Cute Charm    |    0 | f
+   36 | Clefable   | Fairy    |          | Clefairy   |            |   1 | Cute Charm    |    1 | f
+   37 | Vulpix     | Fire     |          |            | Ninetales  |   1 | Flash Fire    |    0 | f
+   38 | Ninetales  | Fire     |          | Vulpix     |            |   1 | Flash Fire    |    0 | f
+   39 | Jigglypuff | Normal   |          | Igglybuff  | Wigglytuff |   1 | Cute Charm    |    0 | f
+   40 | Wigglytuff | Normal   |          | Jigglypuff |            |   1 | Cute Charm    |    0 | f
+   41 | Zubat      | Poison   | Flying   |            | Golbat     |   1 | Inner Focus   |    0 | f
+   42 | Golbat     | Poison   | Flying   | Zubat      |            |   1 | Inner Focus   |    0 | f
+   43 | Oddish     | Grass    | Poison   |            | Gloom      |   1 | Chlorophyll   |    0 | f
+   44 | Gloom      | Grass    | Poison   | Oddish     | (multi)    |   1 | Chlorophyll   |    0 | f
+   45 | Vileplume  | Grass    | Poison   | Gloom      |            |   1 | Chlorophyll   |    0 | f
+   46 | Paras      | Bug      | Grass    |            | Parasect   |   1 | Effect Spore  |    0 | f
+   47 | Parasect   | Bug      | Grass    | Paras      |            |   1 | Effect Spore  |    0 | f
+   48 | Venonat    | Bug      | Poison   |            | Venomoth   |   1 | Compound Eyes |    0 | f
+   49 | Venomoth   | Bug      | Poison   | Venonat    |            |   1 | Shield Dust   |    0 | f
+   50 | Diglett    | Ground   |          |            | Dugtrio    |   1 | Sand Veil     |    0 | f
+   51 | Dugtrio    | Ground   |          | Diglett    |            |   1 | Sand Veil     |    0 | f
+   52 | Meowth     | Normal   |          |            | Persian    |   1 | Pickup        |    0 | t
+   53 | Persian    | Normal   |          | Meowth     |            |   1 | Limber        |    0 | f
+   54 | Psyduck    | Water    |          |            | Golduck    |   1 | Damp          |    0 | f
+   55 | Golduck    | Water    |          | Psyduck    |            |   1 | Damp          |    0 | f
+   56 | Mankey     | Fighting |          |            | Primeape   |   1 | Vital Spirit  |    0 | f
+   57 | Primeape   | Fighting |          | Mankey     | Annihilape |   1 | Vital Spirit  |    0 | f
+   58 | Growlithe  | Fire     |          |            | Arcanine   |   1 | Intimidate    |    0 | f
+   59 | Arcanine   | Fire     |          | Growlithe  |            |   1 | Intimidate    |    0 | f
+   60 | Poliwag    | Water    |          |            | Poliwhirl  |   1 | Water Absorb  |    0 | f
+   61 | Poliwhirl  | Water    |          | Poliwag    | (multi)    |   1 | Water Absorb  |    0 | f
+   62 | Poliwrath  | Water    | Fighting | Poliwhirl  |            |   1 | Water Absorb  |    0 | f
+   63 | Abra       | Psychic  |          |            | Kadabra    |   1 | Synchronize   |    0 | f
+   64 | Kadabra    | Psychic  |          | Abra       | Alakazam   |   1 | Synchronize   |    0 | f
+   65 | Alakazam   | Psychic  |          | Kadabra    |            |   1 | Synchronize   |    1 | f
+   66 | Machop     | Fighting |          |            | Machoke    |   1 | Guts          |    0 | f
+   67 | Machoke    | Fighting |          | Machop     | Machamp    |   1 | Guts          |    0 | f
+   68 | Machamp    | Fighting |          | Machoke    |            |   1 | Guts          |    0 | t
+   69 | Bellsprout | Grass    | Poison   |            | Weepinbell |   1 | Chlorophyll   |    0 | f
+   70 | Weepinbell | Grass    | Poison   | Bellsprout | Victreebel |   1 | Chlorophyll   |    0 | f
+   71 | Victreebel | Grass    | Poison   | Weepinbell |            |   1 | Chlorophyll   |    1 | f
+   72 | Tentacool  | Water    | Poison   |            | Tentacruel |   1 | Clear Body    |    0 | f
+   73 | Tentacruel | Water    | Poison   | Tentacool  |            |   1 | Clear Body    |    0 | f
+   74 | Geodude    | Rock     | Ground   |            | Graveler   |   1 | Rock Head     |    0 | f
+   75 | Graveler   | Rock     | Ground   | Geodude    | Golem      |   1 | Rock Head     |    0 | f
+   76 | Golem      | Rock     | Ground   | Graveler   |            |   1 | Rock Head     |    0 | f
+   77 | Ponyta     | Fire     |          |            | Rapidash   |   1 | Run Away      |    0 | f
+   78 | Rapidash   | Fire     |          | Ponyta     |            |   1 | Run Away      |    0 | f
+   79 | Slowpoke   | Water    | Psychic  |            | (multi)    |   1 | Oblivious     |    0 | f
+   80 | Slowbro    | Water    | Psychic  | Slowpoke   |            |   1 | Oblivious     |    1 | f
+   81 | Magnemite  | Electric | Steel    |            | Magneton   |   1 | Magnet Pull   |    0 | f
+   82 | Magneton   | Electric | Steel    | Magnemite  | Magnezone  |   1 | Magnet Pull   |    0 | f
+   83 | Farfetchd  | Normal   | Flying   |            |            |   1 | Keen Eye      |    0 | f
+   84 | Doduo      | Normal   | Flying   |            | Dodrio     |   1 | Run Away      |    0 | f
+   85 | Dodrio     | Normal   | Flying   | Doduo      |            |   1 | Run Away      |    0 | f
+   86 | Seel       | Water    |          |            | Dewgong    |   1 | Thick Fat     |    0 | f
+   87 | Dewgong    | Water    | Ice      | Seel       |            |   1 | Thick Fat     |    0 | f
+   88 | Grimer     | Poison   |          |            | Muk        |   1 | Stench        |    0 | f
+   89 | Muk        | Poison   |          | Grimer     |            |   1 | Stench        |    0 | f
+   90 | Shellder   | Water    |          |            | Cloyster   |   1 | Shell Armor   |    0 | f
+   91 | Cloyster   | Water    | Ice      | Shellder   |            |   1 | Shell Armor   |    0 | f
+   92 | Gastly     | Ghost    | Poison   |            | Haunter    |   1 | Levitate      |    0 | f
+   93 | Haunter    | Ghost    | Poison   | Gastly     | Gengar     |   1 | Levitate      |    0 | f
+   94 | Gengar     | Ghost    | Poison   | Haunter    |            |   1 | Cursed Body   |    1 | t
+   95 | Onix       | Rock     | Ground   |            | Steelix    |   1 | Rock Head     |    0 | f
+   96 | Drowzee    | Psychic  |          |            | Hypno      |   1 | Insomnia      |    0 | f
+   97 | Hypno      | Psychic  |          | Drowzee    |            |   1 | Insomnia      |    0 | f
+   98 | Krabby     | Water    |          |            | Kingler    |   1 | Hyper Cutter  |    0 | f
+   99 | Kingler    | Water    |          | Krabby     |            |   1 | Hyper Cutter  |    0 | t
+  100 | Voltorb    | Electric |          |            | Electrode  |   1 | Soundproof    |    0 | f
+  101 | Electrode  | Electric |          | Voltorb    |            |   1 | Soundproof    |    0 | f
+  102 | Exeggcute  | Grass    | Psychic  |            | Exeggutor  |   1 | Chlorophyll   |    0 | f
+  103 | Exeggutor  | Grass    | Psychic  | Exeggcute  |            |   1 | Chlorophyll   |    0 | f
+  104 | Cubone     | Ground   |          |            | Marowak    |   1 | Rock Head     |    0 | f
+  105 | Marowak    | Ground   |          | Cubone     |            |   1 | Rock Head     |    0 | f
+  106 | Hitmonlee  | Fighting |          | Tyrogue    |            |   1 | Limber        |    0 | f
+  107 | Hitmonchan | Fighting |          | Tyrogue    |            |   1 | Keen Eye      |    0 | f
+  108 | Lickitung  | Normal   |          |            | Lickilicky |   1 | Own Tempo     |    0 | f
+  109 | Koffing    | Poison   |          |            | Weezing    |   1 | Levitate      |    0 | f
+  110 | Weezing    | Poison   |          | Koffing    |            |   1 | Levitate      |    0 | f
+  111 | Rhyhorn    | Ground   | Rock     |            | Rhydon     |   1 | Lightningrod  |    0 | f
+  112 | Rhydon     | Ground   | Rock     | Rhyhorn    | Rhyperior  |   1 | Lightningrod  |    0 | f
+  113 | Chansey    | Normal   |          | Happiny    | Blissey    |   1 | Natural Cure  |    0 | f
+  114 | Tangela    | Grass    |          |            | Tangrowth  |   1 | Chlorophyll   |    0 | f
+  115 | Kangaskhan | Normal   |          |            |            |   1 | Early Bird    |    1 | f
+  116 | Horsea     | Water    |          |            | Seadra     |   1 | Swift Swim    |    0 | f
+  117 | Seadra     | Water    |          | Horsea     | Kingdra    |   1 | Poison Point  |    0 | f
+  118 | Goldeen    | Water    |          |            | Seaking    |   1 | Swift Swim    |    0 | f
+  119 | Seaking    | Water    |          | Goldeen    |            |   1 | Swift Swim    |    0 | f
+  120 | Staryu     | Water    |          |            | Starmie    |   1 | Illuminate    |    0 | f
+  121 | Starmie    | Water    | Psychic  | Staryu     |            |   1 | Illuminate    |    1 | f
+  122 | Mr. Mime   | Psychic  | Fairy    | Mime Jr.   |            |   1 | Soundproof    |    0 | f
+  123 | Scyther    | Bug      | Flying   |            | (multi)    |   1 | Swarm         |    0 | f
+  124 | Jynx       | Ice      | Psychic  | Smoochum   |            |   1 | Oblivious     |    0 | f
+  125 | Electabuzz | Electric |          | Elekid     | Electivire |   1 | Static        |    0 | f
+  126 | Magmar     | Fire     |          | Magby      | Magmortar  |   1 | Flame Body    |    0 | f
+  127 | Pinsir     | Bug      |          |            |            |   1 | Hyper Cutter  |    1 | f
+  128 | Tauros     | Normal   |          |            |            |   1 | Intimidate    |    0 | f
+  129 | Magikarp   | Water    |          |            | Gyarados   |   1 | Swift Swim    |    0 | f
+  130 | Gyarados   | Water    | Flying   | Magikarp   |            |   1 | Intimidate    |    1 | f
+  131 | Lapras     | Water    | Ice      |            |            |   1 | Water Absorb  |    0 | t
+  132 | Ditto      | Normal   |          |            |            |   1 | Limber        |    0 | f
+  133 | Eevee      | Normal   |          |            | (multi)    |   1 | Run Away      |    0 | t
+  134 | Vaporeon   | Water    |          | Eevee      |            |   1 | Water Absorb  |    0 | f
+  135 | Jolteon    | Electric |          | Eevee      |            |   1 | Volt Absorb   |    0 | f
+  136 | Flareon    | Fire     |          | Eevee      |            |   1 | Flash Fire    |    0 | f
+  137 | Porygon    | Normal   |          |            | Porygon2   |   1 | Trace         |    0 | f
+  138 | Omanyte    | Rock     | Water    |            | Omastar    |   1 | Swift Swim    |    0 | f
+  139 | Omastar    | Rock     | Water    | Omanyte    |            |   1 | Swift Swim    |    0 | f
+  140 | Kabuto     | Rock     | Water    |            | Kabutops   |   1 | Swift Swim    |    0 | f
+  141 | Kabutops   | Rock     | Water    | Kabuto     |            |   1 | Swift Swim    |    0 | f
+  142 | Aerodactyl | Rock     | Flying   |            |            |   1 | Rock Head     |    1 | f
+  143 | Snorlax    | Normal   |          |            |            |   1 | Immunity      |    0 | t
+  144 | Articuno   | Ice      | Flying   |            |            |   1 | Pressure      |    0 | f
+  145 | Zapdos     | Electric | Flying   |            |            |   1 | Pressure      |    0 | f
+  146 | Moltres    | Fire     | Flying   |            |            |   1 | Pressure      |    0 | f
+  147 | Dratini    | Dragon   |          |            | Dragonair  |   1 | Shed Skin     |    0 | f
+  148 | Dragonair  | Dragon   |          | Dratini    | Dragonite  |   1 | Shed Skin     |    0 | f
+  149 | Dragonite  | Dragon   | Flying   | Dragonair  |            |   1 | Inner Focus   |    1 | f
+  150 | Mewtwo     | Psychic  |          |            |            |   1 | Pressure      |    2 | f
+  151 | Mew        | Psychic  |          |            |            |   1 | Synchronize   |    0 | f
+  182 | Bellossom  | Grass    |          | Gloom      |            |   2 | Chlorophyll   |    0 | f
+  186 | Politoed   | Water    |          | Poliwhirl  |            |   2 | Water Absorb  |    0 | f
+  196 | Espeon     | Psychic  |          | Eevee      |            |   2 | Synchronize   |    0 | f
+  197 | Umbreon    | Dark     |          | Eevee      |            |   2 | Synchronize   |    0 | f
+  199 | Slowking   | Water    | Psychic  | Slowpoke   |            |   2 | Oblivious     |    0 | f
+  470 | Leafeon    | Grass    |          | Eevee      |            |   4 | Leaf Guard    |    0 | f
+  471 | Glaceon    | Ice      |          | Eevee      |            |   4 | Snow Cloak    |    0 | f
+  700 | Sylveon    | Fairy    |          | Eevee      |            |   6 | Cute Charm    |    0 | f
+  901 | Kleavor    | Bug      | Rock     | Scyther    |            |   8 | Cute Charm    |    0 | f
+(160 rows)
