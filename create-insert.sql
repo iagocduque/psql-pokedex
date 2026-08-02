@@ -211,9 +211,9 @@ Update Pokedex set EvTo='Porygon2' where Pkdx=137; -- ← New evolution for Pory
 Insert into Pokedex (Pkdx,Pkmn,Type1,Type2,EvFrom,EvTo) values
 (182,'Bellossom','Grass',null,'Gloom',null),
 (186,'Politoed','Water',null,'Poliwhirl',null),
-(199,'Slowking','Water','Psychc','Slowpoke',null),
 (196,'Espeon','Psychc',null,'Eevee',null),
-(197,'Umbreon','Dark',null,'Eevee',null);
+(197,'Umbreon','Dark',null,'Eevee',null),
+(199,'Slowking','Water','Psychc','Slowpoke',null);
 
 -- ↓ Adding a new value in the Pokédex table for the generation the Pokémon was introduced
 Alter table Pokedex add column Gen int; -- ← New column added
