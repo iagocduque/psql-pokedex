@@ -1,16 +1,16 @@
 pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax 
 1,Bulbasaur,Grass,Poison,,Ivysaur,1,Overgrow,0,f
 2,Ivysaur,Grass,Poison,Bulbasaur,Venusaur,1,Overgrow,0,f
-3,Venusaur,Grass,Poison,Ivysaur,,1,Overgrow,1,true
+3,Venusaur,Grass,Poison,Ivysaur,,1,Overgrow,1,t
 4,Charmander,Fire,,,Charmeleon,1,Blaze,0,f
 5,Charmeleon,Fire,,Charmander,Charizard,1,Blaze,0,f
-6,Charizard,Fire,Flying,Charmeleon,,1,Blaze,2,true
+6,Charizard,Fire,Flying,Charmeleon,,1,Blaze,2,t
 7,Squirtle,Water,,,Wartortle,1,Torrent,0,f
 8,Wartortle,Water,,Squirtle,Blastoise,1,Torrent,0,f
-9,Blastoise,Water,,Wartortle,,1,Torrent,1,true
+9,Blastoise,Water,,Wartortle,,1,Torrent,1,t
 10,Caterpie,Bug,,,Metapod,1,Shield Dust,0,f
 11,Metapod,Bug,,Caterpie,Butterfree,1,Shield Dust,0,f
-12,Butterfree,Bug,Flying,Metapod,,1,Compound Eyes,0,true
+12,Butterfree,Bug,Flying,Metapod,,1,Compound Eyes,0,t
 13,Weedle,Bug,Poison,,Kakuna,1,Shield Dust,0,f
 14,Kakuna,Bug,Poison,Weedle,Beedrill,1,Shed Skin,0,f
 15,Beedrill,Bug,Poison,Kakuna,,1,Swarm,1,f
@@ -23,7 +23,7 @@ pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax
 22,Fearow,Normal,Flying,Spearow,,1,Keen Eye,0,f
 23,Ekans,Poison,,,Arbok,1,Intimidate,0,f
 24,Arbok,Poison,,Ekans,,1,Intimidate,0,f
-25,Pikachu,Electric,,Pichu,Raichu,1,Static,0,true
+25,Pikachu,Electric,,Pichu,Raichu,1,Static,0,t
 26,Raichu,Electric,,Pikachu,,1,Static,2,f
 27,Sandshrew,Ground,,,Sandslash,1,Sand Veil,0,f
 28,Sandslash,Ground,,Sandshrew,,1,Sand Veil,0,f
@@ -50,7 +50,7 @@ pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax
 49,Venomoth,Bug,Poison,Venonat,,1,Shield Dust,0,f
 50,Diglett,Ground,,,Dugtrio,1,Sand Veil,0,f
 51,Dugtrio,Ground,,Diglett,,1,Sand Veil,0,f
-52,Meowth,Normal,,,Persian,1,Pickup,0,true
+52,Meowth,Normal,,,Persian,1,Pickup,0,t
 53,Persian,Normal,,Meowth,,1,Limber,0,f
 54,Psyduck,Water,,,Golduck,1,Damp,0,f
 55,Golduck,Water,,Psyduck,,1,Damp,0,f
@@ -66,7 +66,7 @@ pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax
 65,Alakazam,Psychic,,Kadabra,,1,Synchronize,1,f
 66,Machop,Fighting,,,Machoke,1,Guts,0,f
 67,Machoke,Fighting,,Machop,Machamp,1,Guts,0,f
-68,Machamp,Fighting,,Machoke,,1,Guts,0,true
+68,Machamp,Fighting,,Machoke,,1,Guts,0,t
 69,Bellsprout,Grass,Poison,,Weepinbell,1,Chlorophyll,0,f
 70,Weepinbell,Grass,Poison,Bellsprout,Victreebel,1,Chlorophyll,0,f
 71,Victreebel,Grass,Poison,Weepinbell,,1,Chlorophyll,1,f
@@ -92,12 +92,12 @@ pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax
 91,Cloyster,Water,Ice,Shellder,,1,Shell Armor,0,f
 92,Gastly,Ghost,Poison,,Haunter,1,Levitate,0,f
 93,Haunter,Ghost,Poison,Gastly,Gengar,1,Levitate,0,f
-94,Gengar,Ghost,Poison,Haunter,,1,Cursed Body,1,true
+94,Gengar,Ghost,Poison,Haunter,,1,Cursed Body,1,t
 95,Onix,Rock,Ground,,Steelix,1,Rock Head,0,f
 96,Drowzee,Psychic,,,Hypno,1,Insomnia,0,f
 97,Hypno,Psychic,,Drowzee,,1,Insomnia,0,f
 98,Krabby,Water,,,Kingler,1,Hyper Cutter,0,f
-99,Kingler,Water,,Krabby,,1,Hyper Cutter,0,true
+99,Kingler,Water,,Krabby,,1,Hyper Cutter,0,t
 100,Voltorb,Electric,,,Electrode,1,Soundproof,0,f
 101,Electrode,Electric,,Voltorb,,1,Soundproof,0,f
 102,Exeggcute,Grass,Psychic,,Exeggutor,1,Chlorophyll,0,f
@@ -129,9 +129,9 @@ pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax
 128,Tauros,Normal,,,,1,Intimidate,0,f
 129,Magikarp,Water,,,Gyarados,1,Swift Swim,0,f
 130,Gyarados,Water,Flying,Magikarp,,1,Intimidate,1,f
-131,Lapras,Water,Ice,,,1,Water Absorb,0,true
+131,Lapras,Water,Ice,,,1,Water Absorb,0,t
 132,Ditto,Normal,,,,1,Limber,0,f
-133,Eevee,Normal,,,(multi),1,Run Away,0,true
+133,Eevee,Normal,,,(multi),1,Run Away,0,t
 134,Vaporeon,Water,,Eevee,,1,Water Absorb,0,f
 135,Jolteon,Electric,,Eevee,,1,Volt Absorb,0,f
 136,Flareon,Fire,,Eevee,,1,Flash Fire,0,f
@@ -141,7 +141,7 @@ pkdx,pkmn,type1,type2,evfrom,evto,gen,abil,mega,gmax
 140,Kabuto,Rock,Water,,Kabutops,1,Swift Swim,0,f
 141,Kabutops,Rock,Water,Kabuto,,1,Swift Swim,0,f
 142,Aerodactyl,Rock,Flying,,,1,Rock Head,1,f
-143,Snorlax,Normal,,,,1,Immunity,0,true
+143,Snorlax,Normal,,,,1,Immunity,0,t
 144,Articuno,Ice,Flying,,,1,Pressure,0,f
 145,Zapdos,Electric,Flying,,,1,Pressure,0,f
 146,Moltres,Fire,Flying,,,1,Pressure,0,f
